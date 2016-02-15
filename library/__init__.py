@@ -10,8 +10,6 @@ def create_app(config=None, app_name=None, blueprints=None):
     app = Flask(__name__)
     return app
 
-path = os.path.abspath('config.py')
-os.chdir(path[:-9])
 
 app = create_app()
 app.config.from_object('config')
