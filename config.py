@@ -5,7 +5,7 @@ import logging
 import sys
 
 SECRET_KEY = 'this_is_a_secret'
-path = os.path.abspath('credentails.txt')
+path = os.path.abspath('credentials.txt')
 os.chdir(path[:-15])
 # Celery config
 CELERY_BROKER_URL = 'redis://localhost:6379/0'
