@@ -2,7 +2,7 @@
 
 Fork of a personal project.
 
-### Background
+## Background
 
 Spotifest was submitted as a project by Chris Li, Tycho van Kleef and Andres Hazard for Rmotr.com's Demo Day.
 The basic requirements of the project was that it had to derive functionality from a large enterprise API. We wanted
